@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.js": "/fullstackopencourse/static/js/main.8c0e1db7.chunk.js",
-    "main.js.map": "/fullstackopencourse/static/js/main.8c0e1db7.chunk.js.map",
-    "runtime~main.js": "/fullstackopencourse/static/js/runtime~main.5d2ec92d.js",
-    "runtime~main.js.map": "/fullstackopencourse/static/js/runtime~main.5d2ec92d.js.map",
-    "static/js/2.9f12ddfc.chunk.js": "/fullstackopencourse/static/js/2.9f12ddfc.chunk.js",
-    "static/js/2.9f12ddfc.chunk.js.map": "/fullstackopencourse/static/js/2.9f12ddfc.chunk.js.map",
+    "main.css": "/fullstackopencourse/static/css/main.b100e6da.chunk.css",
+    "main.js": "/fullstackopencourse/static/js/main.cafec00b.chunk.js",
+    "main.js.map": "/fullstackopencourse/static/js/main.cafec00b.chunk.js.map",
+    "runtime-main.js": "/fullstackopencourse/static/js/runtime-main.e5a93b04.js",
+    "runtime-main.js.map": "/fullstackopencourse/static/js/runtime-main.e5a93b04.js.map",
+    "static/js/2.ca7a8526.chunk.js": "/fullstackopencourse/static/js/2.ca7a8526.chunk.js",
+    "static/js/2.ca7a8526.chunk.js.map": "/fullstackopencourse/static/js/2.ca7a8526.chunk.js.map",
     "index.html": "/fullstackopencourse/index.html",
-    "precache-manifest.6901e73a4b446ee543e1034d53947818.js": "/fullstackopencourse/precache-manifest.6901e73a4b446ee543e1034d53947818.js",
-    "service-worker.js": "/fullstackopencourse/service-worker.js"
+    "precache-manifest.5a4de5d4c3fdbc32df356646e544f2a7.js": "/fullstackopencourse/precache-manifest.5a4de5d4c3fdbc32df356646e544f2a7.js",
+    "service-worker.js": "/fullstackopencourse/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/fullstackopencourse/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/fullstackopencourse/static/media/logo.25bf045c.svg"
   }
 }
