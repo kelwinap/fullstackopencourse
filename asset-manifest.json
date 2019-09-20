@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/Unicafe/static/js/main.48e231d7.chunk.js",
+    "main.js.map": "/Unicafe/static/js/main.48e231d7.chunk.js.map",
+    "runtime~main.js": "/Unicafe/static/js/runtime~main.e1cc6682.js",
+    "runtime~main.js.map": "/Unicafe/static/js/runtime~main.e1cc6682.js.map",
+    "static/js/2.9f12ddfc.chunk.js": "/Unicafe/static/js/2.9f12ddfc.chunk.js",
+    "static/js/2.9f12ddfc.chunk.js.map": "/Unicafe/static/js/2.9f12ddfc.chunk.js.map",
+    "index.html": "/Unicafe/index.html",
+    "precache-manifest.8e50931c38828d9abedff09d33c37508.js": "/Unicafe/precache-manifest.8e50931c38828d9abedff09d33c37508.js",
+    "service-worker.js": "/Unicafe/service-worker.js"
+  }
+}
