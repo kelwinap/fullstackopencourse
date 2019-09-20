@@ -1,5 +1,4 @@
 import React, { useState } from "../node_modules/react";
-import ReactDOM from "../node_modules/react-dom";
 
 const Votes = ({ value }) => {
   if (value == undefined) return null;
@@ -35,7 +34,7 @@ const Title = ({ text }) => {
   );
 };
 
-const App = props => {
+const Anecdotes = props => {
   const [selected, setSelected] = useState(0);
   const [points, setPoints] = useState({});
 
@@ -70,7 +69,7 @@ const App = props => {
   return (
     <div>
       <Title text="Anecdote of the day" /> <br />
-      <div>{props.anecdotes[selected]}</div>
+      <div>{anecdotes[selected]}</div>
       <Votes value={selectedValue} />
       <br />
       <button onClick={handleClick}>Next anecdote</button>
@@ -91,4 +90,4 @@ const anecdotes = [
   "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."
 ];
 
-ReactDOM.render(<App anecdotes={anecdotes} />, document.getElementById("root"));
+export default Anecdotes;

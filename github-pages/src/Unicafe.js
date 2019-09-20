@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 
 const Title = props => (
   <p style={{ fontWeight: "bold", fontSize: 30 }}>{props.text}</p>
@@ -45,7 +44,7 @@ const Statistic = ({ text, value }) => (
   </tr>
 );
 
-const App = props => {
+const Unicafe = props => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
@@ -75,4 +74,4 @@ const App = props => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default Unicafe;
