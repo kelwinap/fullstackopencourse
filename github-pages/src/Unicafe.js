@@ -49,6 +49,10 @@ const Unicafe = props => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
+  const handleBack = value => {
+    props.onClick(0);
+  };
+
   const handleGoodClick = () => {
     setGood(good + 1);
   };
@@ -69,6 +73,8 @@ const Unicafe = props => {
         <Button title="neutral" onClick={handleNeutralClick} />
         <Button title="bad" onClick={handleBadClick} />
         <Statistics good={good} neutral={neutral} bad={bad} />
+        <br />
+        <Button title="Back" onClick={handleBack} />
       </div>
     </div>
   );

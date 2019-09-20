@@ -34,7 +34,7 @@ const Course = ({ course }) => {
   );
 };
 
-const CourseExample = () => {
+const CourseExample = (props) => {
   const courses = [
     {
       name: "Half Stack application development",
@@ -80,11 +80,21 @@ const CourseExample = () => {
     }
   ];
 
+  const handleBack = value => {
+    props.onClick(0);
+  };
+
   const course = courses.map(course => {
     return <Course key={course.id} course={course} />;
   });
 
-  return <div>{course}</div>;
+  return (
+    <div>
+      {course}
+      <br />
+      <button onClick={handleBack}>Back</button>
+    </div>
+  );
 };
 
 export default CourseExample;

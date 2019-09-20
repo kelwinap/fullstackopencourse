@@ -38,6 +38,10 @@ const Anecdotes = props => {
   const [selected, setSelected] = useState(0);
   const [points, setPoints] = useState({});
 
+  const handleBack = value => {
+    props.onClick(0);
+  };
+
   const handleClick = () => {
     const lastIndex = anecdotes.length - 1;
     const nextSelected = selected + 1;
@@ -77,6 +81,8 @@ const Anecdotes = props => {
       <br />
       <br />
       <MostVoted points={points} anecdotes={anecdotes} />
+      <br />
+      <button onClick={handleBack}>Back</button>
     </div>
   );
 };

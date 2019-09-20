@@ -9,6 +9,29 @@ const linkStyle = {
   textDecorationLine: "underline"
 };
 
+const Menu = ({ onClick }) => {
+
+  const handle = value => {
+    onClick(value);
+  };
+
+  return (
+    <div>
+      <ul>
+        <li style={linkStyle} onClick={() => handle(1)} data-id="1">
+          Unicafe
+        </li>
+        <li style={linkStyle} onClick={() => handle(2)} data-id="1">
+          Anecdotes
+        </li>
+        <li style={linkStyle} onClick={() => handle(3)} data-id="1">
+          Course
+        </li>
+      </ul>      
+    </div>
+  );
+};
+
 const App = () => {
   const [value, setValue] = useState(0);
 
@@ -19,27 +42,13 @@ const App = () => {
   const Render = () => {
     console.log(value);
     if (value == 0) {
-      return (
-        <div>
-          <ul>
-            <li style={linkStyle} onClick={() => handleClick(1)} data-id="1">
-              Unicafe
-            </li>
-            <li style={linkStyle} onClick={() => handleClick(2)} data-id="1">
-              Anecdotes
-            </li>
-            <li style={linkStyle} onClick={() => handleClick(3)} data-id="1">
-              Course
-            </li>
-          </ul>
-        </div>
-      );
+      return <Menu onClick={handleClick} />;
     } else if (value == 1) {
-      return <Unicafe />;
+      return <Unicafe onClick={handleClick} />;
     } else if (value == 2) {
-      return <Anecdotes />;
+      return <Anecdotes onClick={handleClick} />;
     } else if (value == 3) {
-      return <CourseExample />;
+      return <CourseExample onClick={handleClick} />;
     }
   };
 
