@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/fullstackopencourse/part1/unicafe/static/js/main.48e231d7.chunk.js",
-    "main.js.map": "/fullstackopencourse/part1/unicafe/static/js/main.48e231d7.chunk.js.map",
+    "main.js": "/fullstackopencourse/part1/unicafe/static/js/main.8c0e1db7.chunk.js",
+    "main.js.map": "/fullstackopencourse/part1/unicafe/static/js/main.8c0e1db7.chunk.js.map",
     "runtime~main.js": "/fullstackopencourse/part1/unicafe/static/js/runtime~main.00f6cd65.js",
     "runtime~main.js.map": "/fullstackopencourse/part1/unicafe/static/js/runtime~main.00f6cd65.js.map",
     "static/js/2.9f12ddfc.chunk.js": "/fullstackopencourse/part1/unicafe/static/js/2.9f12ddfc.chunk.js",
     "static/js/2.9f12ddfc.chunk.js.map": "/fullstackopencourse/part1/unicafe/static/js/2.9f12ddfc.chunk.js.map",
     "index.html": "/fullstackopencourse/part1/unicafe/index.html",
-    "precache-manifest.dfc591c96b83f2759515f0725004feac.js": "/fullstackopencourse/part1/unicafe/precache-manifest.dfc591c96b83f2759515f0725004feac.js",
+    "precache-manifest.95afde5de931bed4ffa76cd4e3ef14b6.js": "/fullstackopencourse/part1/unicafe/precache-manifest.95afde5de931bed4ffa76cd4e3ef14b6.js",
     "service-worker.js": "/fullstackopencourse/part1/unicafe/service-worker.js"
   }
 }

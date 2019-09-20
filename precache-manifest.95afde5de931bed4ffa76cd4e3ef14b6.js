@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8df81371fd3d7b00bd820f0d8b05aad2",
+    "revision": "8e8aee7f57f841c6e4d94cd360dec325",
     "url": "/fullstackopencourse/part1/unicafe/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fullstackopencourse/part1/unicafe/static/js/2.9f12ddfc.chunk.js"
   },
   {
-    "revision": "191eb1fcc60b20a4556c",
-    "url": "/fullstackopencourse/part1/unicafe/static/js/main.48e231d7.chunk.js"
+    "revision": "965a4229b935296b7d79",
+    "url": "/fullstackopencourse/part1/unicafe/static/js/main.8c0e1db7.chunk.js"
   },
   {
     "revision": "48f7772b7947c4247500",

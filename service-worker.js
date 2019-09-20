@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fullstackopencourse/part1/unicafe/precache-manifest.dfc591c96b83f2759515f0725004feac.js"
+  "/fullstackopencourse/part1/unicafe/precache-manifest.95afde5de931bed4ffa76cd4e3ef14b6.js"
 );
 
 self.addEventListener('message', (event) => {
